@@ -1,6 +1,6 @@
-exports.handler = async () => {
-    return{}
+export async function handler() {
+    return{
         statusCode: 200,
         body: 'Boop!',
-    };
+    }
 };
